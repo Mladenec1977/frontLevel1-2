@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+<body>
+<h1>JS</h1>
+<!--******** 1, 2 **********-->
+<section>
+    <div class="row">
+        <div id="square1" class="square"></div>
+        <button class="b1" type="button">display none</button>
+    </div>
+
+    <div class="divButton">
+        <button id="b2" type="button" onclick="delSquare()">del JS</button>
+        <button id="b3" type="button" onclick="delSquareCss()">JS + CSS</button>
+    </div>
+</section>
+<!--******** 3 **********-->
+<section>
+    <div class="row">
+        <div class="square3"></div>
+        <div class="square3"></div>
+        <div class="square3"></div>
+        <div class="square3"></div>
+        <div class="square3"></div>
+    </div>
+
+    <div class="divButton">
+        <button id="b3z3" type="button" onclick="turnOnOf()">Turn on/of</button>
+    </div>
+    <!--******** 4 **********-->
+    <div>
+        <label for="nameSelector">Css selector</label>
+        <input type="text" id="nameSelector" name="nameSel" value="">
+        <button id="b3z4" type="button" onclick="selectorOnOf()">Turn on/of selector</button>
+    </div>
+</section>
+<!--******** 5 **********-->
+<section>
+    <div class="row">
+        <div class="square5" onclick="squareAlert(this)"></div>
+    </div>
+</section>
+<!--******** 6 **********-->
+<section>
+    <div class="row">
+        <div class="zona">
+            <div id="square6" class="square6" hidden></div>
+        </div>
+        <div class="zona">
+            <button onmouseover="mOver()" onmouseout="mOut()">Hover sguare6</button>
+        </div>
+    </div>
+</section>
+<!--******** 7 **********-->
+<section>
+    <div class="row">
+        <div class="zona">
+            <div id="square7" class="square7"></div>
+        </div>
+        <div class="zona">
+            <label for="inpSquare7">text</label>
+            <input type="text" id="inpSquare7" onfocus="square7Green(this)" onkeypress="square7White()">
+        </div>
+    </div>
+</section>
+<!--******** 8 **********-->
+<section>
+    <div class="row">
+        <div>
+            <label for="findImg">Link for picture</label>
+            <input type="url" id="findImg" value="">
+            <button type="button" onclick="imgLoad()">show</button>
+        </div>
+        <div>
+            <img src="" alt="" id="img8">
+        </div>
+    </div>
+</section>
+<!--******** 9 **********-->
+<section>
+    <div class="row">
+        <div>
+            <label for="findImgMulti">List link for picture</label>
+            <textarea id="findImgMulti"></textarea>
+            <button type="button" onclick="imgLoadMulti()">show</button>
+        </div>
+        <div id="nextImg">
+            <!--      add js      <img src="" alt="">-->
+        </div>
+    </div>
+</section>
+<!--******** 10, 11, 12 **********-->
+<section>
+    <div class="iconXY">
+        <p id="iconXYtext"></p>
+        <p id="iconXYtext2"></p>
+    </div>
+</section>
+<!--******** 13 **********-->
+<section>
+    <div>
+        <label for="inpLevel13-1">localStorage</label>
+        <input type="text" id="inpLevel13-1">
+    </div>
+    <div>
+        <label for="inpLevel13-2">cookies</label>
+        <input type="text" id="inpLevel13-2">
+    </div>
+    <div>
+        <label for="inpLevel13-3">sessionStorage</label>
+        <input type="text" id="inpLevel13-3">
+    </div>
+</section>
+<!--******** 15 **********-->
+<section>
+    <div id="divBigOne" class="divBig" onclick="alert('Div big')">
+        <div id="divSmallOne" class="divSmall" onclick="alert('Div small')"></div>
+    </div>
+</section>
+<!--******** 16 **********-->
+<section>
+    <div id="square16" class="square16" hidden></div>
+    <button type="button" onclick="hiddenSquare16()">Square16</button>
+</section>
+<section>
+    <form onsubmit="ofReboot()"><input type="submit" value="GO"></form>
+</section>
+<!--******** 16 **********-->
+<section>
+    <input type="file" id="inputFile" class="dragndrop" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)">
+</section>
+<footer>
+    <!--******** 14 **********-->
+    <button id="upList"> up </button>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

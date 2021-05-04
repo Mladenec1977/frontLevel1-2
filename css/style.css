@@ -1,0 +1,110 @@
+section {
+
+}
+
+.square, .square3 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+button:active {
+    outline: none;
+}
+
+.b1:active div.square {
+    visibility: hidden;
+    /*display: none;*/
+}
+
+.hidden {
+    display: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square5 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.zona {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.square6 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.square7 {
+    width: 50px;
+    height: 20px;
+    margin: auto;
+}
+
+.iconXY {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    background: yellow;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+input {
+    margin: 20px;
+}
+
+.divBig {
+    background: green;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.divSmall {
+    background: red;
+    width: 50%;
+    height: 70px;
+    margin: auto;
+}
+
+.square16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: darkgray;
+    opacity: 0.5;
+}
